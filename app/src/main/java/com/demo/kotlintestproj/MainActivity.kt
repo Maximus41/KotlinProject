@@ -2,11 +2,8 @@ package com.demo.kotlintestproj
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
-import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
-import io.reactivex.schedulers.Schedulers
 
 class MainActivity : AppCompatActivity() , GalleryFragment.OnFragmentInteractionListener {
 

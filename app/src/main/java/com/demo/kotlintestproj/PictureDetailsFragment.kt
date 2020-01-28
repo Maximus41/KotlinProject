@@ -3,7 +3,6 @@ package com.demo.kotlintestproj
 
 import Repository.Model.Picture
 import Util.APPLICATION_TAG
-import Util.isInternetAvailable
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater

@@ -1,7 +1,6 @@
 package Injections
 
-import Repository.PictureRepo
-import com.kotlin.testapp.MainViewModel
+import com.demo.kotlintestproj.MainViewModel
 import dagger.Component
 import javax.inject.Singleton
 

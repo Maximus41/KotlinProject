@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">KotLinTestProj</string>
+    <string name="str_no_internet">No Internet</string>
+    <string name="str_no_internet_message">Network not available. Please try again later</string>
+    <string name="str_ok">OK</string>
 </resources>

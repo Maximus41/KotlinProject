@@ -1,28 +1,23 @@
 package com.demo.kotlintestproj
 
 import Repository.Model.Picture
-import Util.*
-import android.app.ProgressDialog
+import Util.TOTAL_ITEM_COUNT
+import Util.TOTAL_PAGE
 import android.content.Context
-import android.net.Uri
 import android.os.Bundle
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ProgressBar
-import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.demo.kotlintestprojtestapp.PictureAdapter
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.fragment_gallery.*
 import kotlinx.android.synthetic.main.fragment_gallery.view.*
-import kotlinx.android.synthetic.main.fragment_gallery.view.galleryView
 
 class GalleryFragment(disposable: CompositeDisposable) : BaseFragment() {
 

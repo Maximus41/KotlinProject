@@ -8,8 +8,7 @@ import Repository.Services.GalleryService
 import Util.BASE_URL
 import Util.CONNECTION_TIME_OUT
 import android.content.Context
-import androidx.room.RoomDatabase
-import com.kotlin.testapp.BuildConfig
+import com.demo.kotlintestproj.BuildConfig
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient
